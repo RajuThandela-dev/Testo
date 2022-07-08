@@ -22,6 +22,7 @@ let useStyle = makeStyles((theme) => {
 });
 const HelperCard = ({ product, amount, percentage }) => {
   let classes = useStyle();
+  const name="mahesh"
 
   return (
     <Card className={classes.root}>
